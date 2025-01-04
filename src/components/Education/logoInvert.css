@@ -1,0 +1,7 @@
+.logo-invert {
+  filter: invert(90%);
+}
+
+.no-invert {
+  filter: none; /* Ensures no color inversion */
+}

@@ -5,6 +5,7 @@ import EducationalQualification from "../components/Education/EducationalQualifi
 import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
 import Projects from "../components/Projects/Projects";
+// import ProjectsOld from "../components/Projects/ProjectsOld";
 import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
 import Skills from "../components/Skills/Skills";
 
@@ -16,6 +17,7 @@ const Home = () => {
             <AboutMe />
             <Skills />
             <EducationalQualification />
+            {/* <ProjectsOld /> */}
             <Projects />
             <Contact />
             <Footer />

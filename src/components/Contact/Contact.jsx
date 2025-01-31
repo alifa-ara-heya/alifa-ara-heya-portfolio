@@ -1,4 +1,4 @@
-import { FaEnvelope, FaMapMarkerAlt, FaPhone } from "react-icons/fa";
+import { FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import Swal from "sweetalert2";
 
 const Contact = () => {
@@ -56,7 +56,7 @@ const Contact = () => {
     return (
         <section className="bg-gray-900 py-16 px-6" id="contact">
             <div className="container mx-auto max-w-6xl">
-                <h2 className="text-4xl font-bold text-center mb-8 text-white">Contact Information</h2>
+                <h2 className="text-4xl font-bold text-center mb-8 ">Contact Information</h2>
 
                 {/* Contact Details */}
                 <div className="flex flex-col md:flex-row justify-center items-center gap-8 mb-12">
@@ -71,14 +71,14 @@ const Contact = () => {
                     </div>
 
                     {/* Phone */}
-                    <div className="flex items-center gap-4">
+                    {/*  <div className="flex items-center gap-4">
                         <FaPhone />
                         <p className="text-lg">
                             <a href="tel:+15183087574" className="hover:underline">
                                 +1 518-308-7574
                             </a>
                         </p>
-                    </div>
+                    </div> */}
 
 
                     {/* Location */}

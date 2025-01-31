@@ -5,6 +5,7 @@ import nodeLogo from '../../assets/node-logo.png'
 import expressLogo from '../../assets/express-logo.png'
 import mongoLogo from '../../assets/mongo-logo.png'
 import firebaseLogo from '../../assets/firebase-logo.png'
+import githubLogo from '../../assets/github-icon.png'
 const Skills = () => {
     const skills = [
         {
@@ -26,6 +27,7 @@ const Skills = () => {
             category: "Tools",
             items: [
                 { name: "Firebase", logo: firebaseLogo },
+                { name: "Github", logo: githubLogo },
             ],
         },
     ];
@@ -33,7 +35,8 @@ const Skills = () => {
     return (
         <section className=" py-16 px-6" id="skills">
             <div className="container mx-auto max-w-6xl">
-                <h2 className="text-4xl font-bold text-center text-white mb-10">My Skills</h2>
+                <h2 className="text-4xl font-bold text-center  mb-10">My Skills</h2>
+
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {skills.map((skillCategory, index) => (
                         <div key={index} className="card rounded-lg p-6 shadow-lg gradientCard">

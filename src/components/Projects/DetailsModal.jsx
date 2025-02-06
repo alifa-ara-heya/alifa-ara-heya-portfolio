@@ -7,6 +7,7 @@ import 'swiper/css/pagination';
 // import required modules
 import { Pagination } from 'swiper/modules';
 import { GrClose } from 'react-icons/gr';
+import { Link } from 'react-router-dom';
 
 const DetailsModal = ({ heading, screenshot1, screenshot2, screenshot3, screenshot4, technologies, description, livelink, github, id }) => {
     return (
@@ -57,6 +58,9 @@ const DetailsModal = ({ heading, screenshot1, screenshot2, screenshot3, screensh
                     >
                         GitHub
                     </a>
+                    {/* <Link to={`/details/${id}`}>
+                        <button className='bg-blue-900 py-2 px-4 rounded text-white hover:bg-gray-500 transition duration-300'>View Details</button>
+                    </Link> */}
                 </div>
 
                 <div className="modal-action">

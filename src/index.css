@@ -11,6 +11,8 @@ html {
 #education,
 #contact,
 #skills,
-#about {
-  scroll-margin-top: 50px; /* Adjust this to match your desired offset */
+#about,
+#projects {
+  scroll-margin-top: 50px;
+  /* Adjust this to match your desired offset */
 }

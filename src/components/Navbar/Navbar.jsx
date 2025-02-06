@@ -10,18 +10,18 @@ const Navbar = () => {
 
     const navLinks = (
         <>
-            <li><a href="#about" onClick={() => setIsOpen(false)}>About Me</a></li>
-            <li><a href="#skills" onClick={() => setIsOpen(false)}>Skills</a></li>
-            <li><a href="#projects" onClick={() => setIsOpen(false)}>Projects</a></li>
-            <li><a href="#education" onClick={() => setIsOpen(false)}>Education</a></li>
-            <li><a href="#contact" onClick={() => setIsOpen(false)}>Contact</a></li>
+            <li><a href="#about" onClick={() => setIsOpen(false)} className=" cursor-pointer text-gray-400 font-semibold px-4 border-b-2 border-transparent hover:text-blue-600 hover:border-blue-600 transition-all duration-300 focus:outline-none">About Me</a></li>
+            <li><a href="#skills" onClick={() => setIsOpen(false)} className=" cursor-pointer text-gray-400 font-semibold px-4 border-b-2 border-transparent hover:text-blue-600 hover:border-blue-600 transition-all duration-300 focus:outline-none">Skills</a></li>
+            <li><a href="#projects" onClick={() => setIsOpen(false)} className=" cursor-pointer text-gray-400 font-semibold border-b-2 border-transparent hover:text-blue-600 hover:border-blue-600 transition-all duration-300 focus:outline-none px-4">Projects</a></li>
+            <li><a href="#education" onClick={() => setIsOpen(false)} className=" cursor-pointer text-gray-400 font-semibold border-b-2 border-transparent hover:text-blue-600 hover:border-blue-600 transition-all duration-300 focus:outline-none px-4">Education</a></li>
+            <li><a href="#contact" onClick={() => setIsOpen(false)} className=" cursor-pointer text-gray-400 font-semibold border-b-2 border-transparent hover:text-blue-600 hover:border-blue-600 transition-all duration-300 focus:outline-none px-4">Contact</a></li>
         </>
     );
 
     return (
         <>
             {/* Navbar */}
-            <div className="navbar backdrop-blur-lg sticky top-0 z-50 p-4 md:w-11/12 mx-auto max-w-6xl flex justify-between items-center">
+            <div className="navbar backdrop-blur-lg sticky top-0 z-50 py-6 mx-auto max-w-7xl flex justify-between items-center">
                 {/* Left Section */}
                 <div className="flex items-center">
                     {/* Sidebar Toggle Button (only on md and smaller screens) */}
@@ -34,9 +34,9 @@ const Navbar = () => {
                 </div>
 
                 {/* Navigation Links (Shown only on large screens) */}
-                <div className="hidden lg:flex space-x-6">
+                <ul className="hidden lg:flex lg:justify-center lg:items-center list-none ">
                     {navLinks}
-                </div>
+                </ul>
 
                 {/* Download Resume Button */}
                 <div>

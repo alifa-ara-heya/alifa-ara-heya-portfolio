@@ -3,5 +3,6 @@
 }
 
 .no-invert {
-  filter: none; /* Ensures no color inversion */
+  filter: none;
+  /* Ensures no color inversion */
 }

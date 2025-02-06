@@ -12,7 +12,7 @@ const Banner = () => {
                 {/* text content */}
                 <div className='space-y-10 text-center'>
                     <h2 className='font-extrabold text-3xl  md:text-7xl leading-relaxed '>Frontend <br /> <span className='bg-gradient-to-r from-indigo-300 to-blue-500  bg-clip-text text-transparent'>Web Developer</span></h2>
-                    <p className='text-xl font-medium md:w-3/4 mx-auto'>Crafting Dynamic Interfaces with React & Tailwind CSS – Junior Web Developer Ready to Bring Your Ideas to Life!</p>
+                    <p className='text-xl font-medium md:w-3/4 mx-auto'>Crafting Dynamic Interfaces with React & Tailwind CSS – Building seamless, responsive web experiences. Turning concepts into smooth, functional websites.</p>
 
                     <section className='flex items-center justify-center gap-4 '>
                         <Link to='https://github.com/alifa-ara-heya' target='_blank' ><FaGithub size={30} /></Link>

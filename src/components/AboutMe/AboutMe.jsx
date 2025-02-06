@@ -17,11 +17,11 @@ const AboutMe = () => {
                         <p>
                             Hi, I&apos;m <span className="font-bold">Alifa Ara Heya</span>, a passionate junior frontend developer with a knack for crafting dynamic and user-friendly interfaces using React and Tailwind CSS. My journey into programming started with a curious mindset and a desire to build things that could make life easier and more exciting.
                         </p>
-                        <p>
+                        {/*   <p>
                             I love working on projects that challenge me to think creatively and solve problems efficiently. Designing responsive, clean, and modern user experiences is what excites me the most. I find immense joy in watching my code come to life and bring value to others.
-                        </p>
+                        </p> */}
                         <p>
-                            Beyond coding, I&apos;m a person who loves <span className="italic">painting,reading, embroidering, and exploring nature</span>.
+                            Beyond coding, I&apos;m a person who loves <span className="italic">painting, reading, embroidering, and exploring nature</span>.
                         </p>
                         <p>
                             My work philosophy revolves around <span className="font-semibold">collaboration, continuous learning, and persistence</span>. I&apos;m always eager to learn new technologies and grow both as a developer and as a person.

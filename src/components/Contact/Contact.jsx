@@ -1,4 +1,4 @@
-import { FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import { FaEnvelope, FaMapMarkerAlt, FaPhone } from "react-icons/fa";
 import Swal from "sweetalert2";
 
 const Contact = () => {
@@ -71,14 +71,14 @@ const Contact = () => {
                     </div>
 
                     {/* Phone */}
-                    {/*  <div className="flex items-center gap-4">
+                    <div className="flex items-center gap-4">
                         <FaPhone />
                         <p className="text-lg">
                             <a href="tel:+15183087574" className="hover:underline">
                                 +1 518-308-7574
                             </a>
                         </p>
-                    </div> */}
+                    </div>
 
 
                     {/* Location */}

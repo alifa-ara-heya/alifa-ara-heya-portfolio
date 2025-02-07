@@ -3,6 +3,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
+import './paginationBullets.css'
+
 
 // import required modules
 import { Pagination } from 'swiper/modules';

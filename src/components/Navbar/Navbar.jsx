@@ -3,7 +3,7 @@ import { IoDownloadOutline } from "react-icons/io5";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { motion } from "motion/react"
 
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {

@@ -11,7 +11,7 @@ const WhereIsItDetails = () => {
             <h1 className="text-3xl font-bold text-center">WhereIsIt</h1>
 
             {/* Links */}
-            <div className="flex justify-center items-center gap-4">
+            <div className="flex justify-center items-center gap-4 flex-wrap">
                 <Link to='https://github.com/alifa-ara-heya/where-is-it'>
                     <Button text={'Github'} icon={<FaGithub />} />
                 </Link>

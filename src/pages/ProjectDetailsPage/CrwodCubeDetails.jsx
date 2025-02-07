@@ -1,5 +1,4 @@
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-import { BiCopy } from "react-icons/bi";
 import { Link } from "react-router-dom";
 import Button from "../../components/myButton/Button";
 
@@ -11,7 +10,7 @@ const CrowdCubeDetails = () => {
             <h1 className="text-3xl font-bold text-center">CrowdCube</h1>
 
             {/* Links */}
-            <div className="flex justify-center items-center gap-4">
+            <div className="flex justify-center items-center gap-4 flex-wrap">
                 <Link to='https://github.com/alifa-ara-heya/crowdcube'>
                     <Button text={'Github'} icon={<FaGithub />} />
                 </Link>
